@@ -1,17 +1,95 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>
-      Tab 1
+      Frutas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+  <h1>Bem-Vindo ao seu mercado!!</h1>
+  <ion-list class="Lista1">
+    <ion-item-divider>
+      <p>Frutas mais vendidas:</p>
+    </ion-item-divider>
+
+    <div class="Prods1">
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Frutas/melancia.jpg" alt="">
+        </div>
+        <ion-card-title class="TxtTitle">Melancia</ion-card-title>
+        <ion-card-subtitle>A melancia é uma espécie de planta com flor da família Cucurbitaceae.</ion-card-subtitle>
+      </ion-card>
+
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Frutas/manga.jpg" alt="">
+        </div>
+        <ion-card-title class="TxtTitle">Manga</ion-card-title>
+        <ion-card-subtitle >A manga é uma fruta comestível com caroço, produzida pela árvore tropical Mangifera indica.</ion-card-subtitle>
+      </ion-card>
+
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Frutas/uva.jpg" alt="">
+        </div>
+        <ion-card-title id="Title">Uva</ion-card-title>
+        <ion-card-subtitle>A uva é um fruto, botanicamente uma baga, das videiras lenhosas decíduas do gênero Vitis.</ion-card-subtitle>
+      </ion-card>
+
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Frutas/banana.jpg" alt="">
+        </div>
+        <ion-card-title id="Title">Banana</ion-card-title>
+        <ion-card-subtitle>A banana é uma fruta alongada e comestível, botanicamente uma baga.  </ion-card-subtitle>
+      </ion-card>
+    </div>
+  </ion-list>
+
+
+    <ion-list class="Lista2">
+
+
+      <ion-item-divider>
+        <p>Frutas mais saudáveis:</p>
+      </ion-item-divider>
+
+      <div class="Prods2">
+        <ion-card>
+          <div class="imgs">
+            <img src="../../assets/Frutas/maca.jpg" alt="">
+          </div>
+          <ion-card-title>Maçã</ion-card-title>
+          <ion-card-subtitle>A maçã é o fruto redondo e comestível da macieira. As macieiras de pomar.</ion-card-subtitle>
+        </ion-card>
+
+        <ion-card>
+          <div class="imgs">
+            <img src="../../assets/Frutas/melao.jpg" alt="">
+          </div>
+          <ion-card-title>Melão</ion-card-title>
+          <ion-card-subtitle>Cucumis melo, também conhecido como melão ou melão verdadeiro.</ion-card-subtitle>
+        </ion-card>
+
+        <ion-card>
+          <div class="imgs">
+            <img src="../../assets/Frutas/mamao.jpg" alt="">
+          </div>
+          <ion-card-title>Mamão</ion-card-title>
+          <ion-card-subtitle>O mamão, também conhecido como papaia ou mamão-papaia, é a espécie Carica papaya.</ion-card-subtitle>
+        </ion-card>
+
+        <ion-card>
+          <div class="imgs">
+            <img src="../../assets/Frutas/pessego.jpg" alt="">
+          </div>
+          <ion-card-title id="Title2">Pêssego</ion-card-title>
+          <ion-card-subtitle>O pessegueiro é uma árvore de folha caduca que produz frutos suculentos.</ion-card-subtitle>
+        </ion-card>
+      </div>
+    </ion-list>
+
+  </ion-content>
