@@ -1,5 +1,233 @@
 ion-title{
     font-size: 35px;
-    text-align: center;
     color: white;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.Lista1{
+    margin: 10px;
+    justify-content: space-around;
+    width: 100%;
+    justify-items: center;
+    p{
+        margin: 10px;
+        font-size: 20px;
+    }
+}
+.Lista2{
+    margin: 10px;
+    justify-content: space-around;
+    width: 100%;
+    justify-items: center;
+    p{
+        margin: 10px;
+        font-size: 20px;
+    }
+}
+
+.Prods1{
+    display: flex;
+    .imgs{
+        width: 75%;
+        height: 68.4%;
+        justify-self: center;
+        align-content: center;
+    }
+    ion-card{
+        border: 1px solid;
+        width: 300px;
+        height: 390px;
+        border-radius: 18px;
+    }
+    ion-card-title, ion-card-subtitle{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 7px;
+        color: black;
+    }
+}
+.Prods2{
+    display: flex;
+    .imgs{
+        width: 75%;
+        height: 68.4%;
+        justify-self: center;
+        align-content: center;
+    }
+    ion-card{
+        border: 1px solid;
+        width: 300px;
+        border-radius: 18px;
+    }
+    ion-card-title, ion-card-subtitle{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 7px;
+        color: black;
+    }
+}
+@media (prefers-color-scheme: dark) {
+
+ion-content{
+    --background: #262626;
+}
+ion-item-divider{
+    --background: #262626;  
+    p{
+        color: white;
+    }
+}
+.Lista1{
+    background-color: #262626;
+}
+.Lista2{
+    background-color: #262626;
+}
+
+.Prods1{
+    display: flex;
+    .imgs{
+        width: 75%;
+        height: 68.4%;
+        justify-self: center;
+        align-content: center;
+    }
+    ion-card{
+        background-color: white;
+    }
+    ion-card-title, ion-card-subtitle{
+        color: black;
+    }
+}
+.Prods2{
+    display: flex;
+    .imgs{
+        width: 75%;
+        height: 68.4%;
+        justify-self: center;
+        align-content: center;
+    }
+    ion-card{
+        background-color: white;
+    }
+    ion-card-title, ion-card-subtitle{
+        color: black;
+    }
+}   
+}
+@media screen and (max-height: 900px){
+ion-title{
+    font-size: 35px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.Lista1{
+    justify-content: space-around;
+    width: 100%;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    p{
+        margin: 10px;
+        font-size: 20px;
+    }
+}
+.Lista2{
+    justify-content: space-around;
+    width: 100%;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    p{
+        margin: 10px;
+        font-size: 20px;
+    }
+}
+
+.Prods1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    .imgs{
+        width: 75%;
+        height: 68.4%;
+        justify-self: center;
+        align-content: center;
+    }
+    ion-card{
+        border: 1px solid;
+        width: 300px;
+        border-radius: 18px;
+    }
+    ion-card-title, ion-card-subtitle{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 7px;
+        color: black;
+    }
+}
+.Prods2{
+    display: block;
+    .imgs{
+        width: 75%;
+        height: 68.4%;
+        align-content: center;
+    }
+    ion-card{
+        border: 1px solid;
+        width: 300px;
+        border-radius: 18px;
+    }
+    ion-card-title, ion-card-subtitle{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 7px;
+        color: black;
+    }
+}
+@media (prefers-color-scheme: dark) {
+.Prods1{
+    display: block;
+    .imgs{
+        width: 75%;
+        height: 68.4%;
+        justify-self: center;
+        align-content: center;
+    }
+    ion-card{
+        background-color: white;
+    }
+    ion-card-title, ion-card-subtitle{
+        color: black;
+    }
+}
+.Prods2{
+    display: block;
+    .imgs{
+        width: 75%;
+        height: 68.4%;
+        justify-self: center;
+        align-content: center;
+    }
+    ion-card{
+        background-color: white;
+    }
+    ion-card-title, ion-card-subtitle{
+        color: black;
+    }
+}   
+}
 }

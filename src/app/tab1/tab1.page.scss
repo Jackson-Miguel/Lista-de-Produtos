@@ -117,7 +117,7 @@ ion-item-divider{
     }
 }   
 }
-@media screen and (max-height: 800px){
+@media screen and (max-height: 900px){
 ion-title{
     font-size: 35px;
     color: white;
@@ -129,20 +129,24 @@ h1{
 }
 
 .Lista1{
-    margin: 10px;
     justify-content: space-around;
     width: 100%;
     justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
     p{
         margin: 10px;
         font-size: 20px;
     }
 }
 .Lista2{
-    margin: 10px;
     justify-content: space-around;
     width: 100%;
     justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
     p{
         margin: 10px;
         font-size: 20px;
