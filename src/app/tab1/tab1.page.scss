@@ -117,7 +117,7 @@ ion-item-divider{
     }
 }   
 }
-@media screen and (max-height: 900px){
+@media screen and (max-height: 850px){
 ion-title{
     font-size: 35px;
     color: white;
@@ -131,8 +131,6 @@ h1{
 .Lista1{
     justify-content: space-around;
     width: 100%;
-    justify-items: center;
-    flex-direction: column;
     justify-content: center;
     justify-self: center;
     p{
@@ -145,8 +143,6 @@ h1{
     width: 100%;
     justify-items: center;
     flex-direction: column;
-    justify-content: center;
-    justify-self: center;
     p{
         margin: 10px;
         font-size: 20px;
@@ -154,7 +150,7 @@ h1{
 }
 
 .Prods1{
-    display: block;
+    display: flex;
     .imgs{
         width: 75%;
         height: 68.4%;
@@ -174,7 +170,7 @@ h1{
     }
 }
 .Prods2{
-    display: block;
+    display: flex;
     .imgs{
         width: 75%;
         height: 68.4%;
