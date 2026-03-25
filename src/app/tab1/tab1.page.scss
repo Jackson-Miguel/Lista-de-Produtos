@@ -11,7 +11,7 @@ h1{
 .Lista1{
     margin: 10px;
     justify-content: space-around;
-    width: 100%;
+    width: 100%; 
     justify-items: center;
     p{
         margin: 10px;
@@ -54,6 +54,7 @@ h1{
     .imgs{
         width: 75%;
         height: 68.4%;
+        justify-self: center;
         align-content: center;
     }
     ion-card{
@@ -117,107 +118,79 @@ ion-item-divider{
     }
 }   
 }
-@media screen and (max-height: 850px){
-ion-title{
-    font-size: 35px;
-    color: white;
-}
 
-h1{
-    text-align: center;
-    font-size: 25px;
-}
 
-.Lista1{
-    justify-content: space-around;
-    width: 100%;
-    justify-content: center;
-    justify-self: center;
-    p{
-        margin: 10px;
-        font-size: 20px;
+@media screen and (max-height: 1200px){
+    ion-title{
+        font-size: 35px;
+        color: white;
     }
-}
-.Lista2{
-    justify-content: space-around;
-    width: 100%;
-    justify-items: center;
-    flex-direction: column;
-    p{
-        margin: 10px;
-        font-size: 20px;
-    }
-}
 
-.Prods1{
-    display: flex;
-    .imgs{
-        width: 75%;
-        height: 68.4%;
+    h1{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .Lista1{
+        justify-content: space-around;
+        width: 100%;
+        justify-content: center;
         justify-self: center;
-        align-content: center;
+        flex-direction: column;
+        p{
+            margin: 10px;
+            font-size: 20px;
+        }
     }
-    ion-card{
-        border: 1px solid;
-        width: 300px;
-        border-radius: 18px;
-    }
-    ion-card-title, ion-card-subtitle{
-        font-size: 18px;
-        font-weight: bold;
-        margin: 7px;
-        color: black;
-    }
-}
-.Prods2{
-    display: flex;
-    .imgs{
-        width: 75%;
-        height: 68.4%;
-        align-content: center;
-    }
-    ion-card{
-        border: 1px solid;
-        width: 300px;
-        border-radius: 18px;
-    }
-    ion-card-title, ion-card-subtitle{
-        font-size: 18px;
-        font-weight: bold;
-        margin: 7px;
-        color: black;
-    }
-}
-@media (prefers-color-scheme: dark) {
-.Prods1{
-    display: block;
-    .imgs{
-        width: 75%;
-        height: 68.4%;
+    .Lista2{
+        justify-content: space-around;
+        width: 100%;
+        justify-content: center;
         justify-self: center;
-        align-content: center;
+        flex-direction: column;
+        p{
+            margin: 10px;
+            font-size: 20px;
+        }
     }
-    ion-card{
-        background-color: white;
+
+    .Prods1{
+        display: flex;
+        .imgs{
+            width: 75%;
+            height: 68.4%;
+            justify-self: center;
+            align-content: center;
+        }
+        ion-card{
+            border: 1px solid;
+            width: 300px;
+            border-radius: 18px;
+        }
+        ion-card-title, ion-card-subtitle{
+            font-size: 18px;
+            font-weight: bold;
+            margin: 7px;
+            color: black;
+        }
     }
-    ion-card-title, ion-card-subtitle{
-        color: black;
+    .Prods2{
+        display: flex;
+        .imgs{
+            width: 75%;
+            height: 68.4%;
+            align-content: center;
+        }
+        ion-card{
+            border: 1px solid;
+            width: 300px;
+            border-radius: 18px;
+        }
+        ion-card-title, ion-card-subtitle{
+            font-size: 18px;
+            font-weight: bold;
+            margin: 7px;
+            color: black;
+        }
     }
-}
-.Prods2{
-    display: block;
-    .imgs{
-        width: 75%;
-        height: 68.4%;
-        justify-self: center;
-        align-content: center;
-    }
-    ion-card{
-        background-color: white;
-    }
-    ion-card-title, ion-card-subtitle{
-        color: black;
-    }
-}   
-}
 }
