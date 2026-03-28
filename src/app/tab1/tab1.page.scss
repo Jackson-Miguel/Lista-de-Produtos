@@ -1,6 +1,7 @@
 ion-title{
     font-size: 35px;
     color: white;
+    text-align: start;
 }
 
 h1{
@@ -120,10 +121,11 @@ ion-item-divider{
 }
 
 
-@media screen and (max-height: 1200px){
+@media screen and (max-height: 1367px) and (max-width: 1027px){
     ion-title{
         font-size: 35px;
         color: white;
+        text-align: start;
     }
 
     h1{
@@ -136,6 +138,92 @@ ion-item-divider{
         width: 100%;
         justify-content: center;
         justify-self: center;
+        p{
+            margin: 10px;
+            font-size: 20px;
+        }
+    }
+    .Lista2{
+        justify-content: space-around;
+        width: 100%;
+        justify-content: center;
+        justify-self: center;
+        p{
+            margin: 10px;
+            font-size: 20px;
+        }
+    }
+
+    .Prods1{
+        display: flex;
+        width: 675px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .imgs{
+            width: 75%;
+            height: 60%;
+            justify-self: center;
+        }
+        ion-card{
+            border: 1px solid;
+            width: 300px;
+            height: 370px;
+            border-radius: 18px;
+        }
+
+        ion-card-title{
+            margin-top: 30px;
+        }
+        ion-card-subtitle{
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+        }
+    }
+    .Prods2{
+        display: flex;
+        width: 675px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .imgs{
+            width: 75%;
+            height: 60%;
+            justify-self: center;
+        }
+        ion-card{
+            border: 1px solid;
+            width: 300px;
+            height: 370px;
+            border-radius: 18px;
+        }
+
+        ion-card-title{
+            margin-top: 30px;
+        }
+        ion-card-subtitle{
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+        }
+    }
+}
+
+
+@media screen and (max-height: 1025px) and (max-width: 769px){
+    ion-title{
+        font-size: 35px;
+        color: white;
+        text-align: start;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .Lista1{
+        justify-content: space-around;
+        width: 100%;
         flex-direction: column;
         p{
             margin: 10px;
@@ -155,7 +243,8 @@ ion-item-divider{
     }
 
     .Prods1{
-        display: flex;
+        display: block;
+        justify-items: center;
         .imgs{
             width: 75%;
             height: 68.4%;
@@ -175,10 +264,12 @@ ion-item-divider{
         }
     }
     .Prods2{
-        display: flex;
+        display: block;
+        justify-items: center;
         .imgs{
             width: 75%;
             height: 68.4%;
+            justify-self: center;
             align-content: center;
         }
         ion-card{

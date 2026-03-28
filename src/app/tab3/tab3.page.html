@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar color="success">
     <ion-title>
       Salgados
@@ -6,12 +6,93 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
-</ion-content>
+  <h1>Bem-Vindo ao seu mercado!!</h1>
+  <ion-list class="Lista1">
+    <ion-item-divider>
+      <p>Os salgados mais famosos:</p>
+    </ion-item-divider>
+
+    <div class="Prods1">
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Salgados/Coxinha.jfif" alt="">
+        </div>
+        <ion-card-title class="TxtTitle">Coxinha</ion-card-title>
+        <ion-card-subtitle>Coxinha é um salgado brasileiro, de origem paulista, feito com massa de farinha de trigo e caldo de galinha.</ion-card-subtitle>
+      </ion-card>
+
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Salgados/Sanduiche.jfif" alt="">
+        </div>
+        <ion-card-title class="TxtTitle">Sanduiche</ion-card-title>
+        <ion-card-subtitle>Um sanduíche de presunto clássico é feito com pão francês ou de forma, presunto, queijo (mussarela ou prato).</ion-card-subtitle>
+      </ion-card>
+
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Salgados/Enroladinho.jfif" alt="">
+        </div>
+        <ion-card-title id="Title">Enroladinho de salcicha</ion-card-title>
+        <ion-card-subtitle>Popular em países atuais e antigos da Commonwealth, uma carne de salsicha envolta em massa folhada.</ion-card-subtitle>
+      </ion-card>
+
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Salgados/Rissole.jfif" alt="">
+        </div>
+        <ion-card-title id="Title">Rissole</ion-card-title>
+        <ion-card-subtitle>É uma bola ou bolo achatado de carne picada, peixe ou vegetais misturados com ervas ou especiarias, empanado e frito.</ion-card-subtitle>
+      </ion-card>
+    </div>
+  </ion-list>
+
+
+  <ion-list class="Lista2">
+
+    <ion-item-divider>
+      <p>Os melhores salgados:</p>
+    </ion-item-divider>
+
+    <div class="Prods2">
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Salgados/Bolinha.jfif" alt="">
+        </div>
+        <ion-card-title>Bolinha de queijo</ion-card-title>
+        <ion-card-subtitle>Popular no Brasil desde os anos 40, feito por uma massa crocante e recheio de mussarela.</ion-card-subtitle>
+      </ion-card>
+
+      <ion-card>
+        <div class="imgs">
+          <img src="../../assets/Salgados/Bauru.jfif" alt="">
+        </div>
+        <ion-card-title>Bauru</ion-card-title>
+        <ion-card-subtitle>Popular no Brasil, feita com massa de pão recheada com presunto, queijo mussarela.</ion-card-subtitle>
+      </ion-card>
+
+        <ion-card>
+          <div class="imgs">
+            <img src="../../assets/Salgados/Kibe.jfif" alt="">
+          </div>
+          <ion-card-title>Kibe</ion-card-title>
+          <ion-card-subtitle>O kibe é um prato popular no mundo árabe, feito de carne magra moída temperada.</ion-card-subtitle>
+        </ion-card>
+
+        <ion-card>
+          <div class="imgs">
+            <img src="../../assets/Salgados/Croissant.jfif" alt="">
+          </div>
+          <ion-card-title id="Title2">Croissant salgado</ion-card-title>
+          <ion-card-subtitle>É uma massa folhada, crocante e amanteigada, ideal para recheios como frango.</ion-card-subtitle>
+        </ion-card>
+      </div>
+    </ion-list>
+
+    <div id="proxPag">
+      <ion-button color="tertiary" (click)="irParaTela4()">Próxima página</ion-button>
+    </div>
+
+  </ion-content>

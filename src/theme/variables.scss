@@ -5,6 +5,7 @@
     --ion-color-primary: #3c9b92;
     --ion-color-success: #459425;
     --ion-color-warning: #F7C82D;
+    --ion-color-tertiary: #3f21a2;
 }
 
 @media(prefers-color-scheme: dark){
@@ -12,5 +13,6 @@
         --ion-color-primary: #21DECB;
         --ion-color-success: #57DE21;
         --ion-color-warning: #A29053;
+        --ion-color-tertiary: #ac92ff;
     }
 }

@@ -11,5 +11,4 @@ import { IonHeader, IonToolbar, IonTitle, IonContent, IonCard, IonList, IonCardC
 export class Tab2Page {
 
   constructor() {}
-
 }
